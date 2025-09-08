@@ -27,24 +27,23 @@ Welcome to Sturdy Octo Disco, a fun and creative project designed to overlay sun
 ## PROGRAM:
 
 
-```
-# Import libraries
+
+#Import libraries
 ```
 
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 ```
-```
-```
-# Load the Face Image
+
+#Load the Face Image
 ```
 
 faceImage = cv2.imread('my image.jpg')
 plt.imshow(faceImage[:,:,::-1]);plt.title("Face")
 
 ```
-```
+
 <img width="439" height="586" alt="image" src="https://github.com/user-attachments/assets/b063bd7b-27b0-4e34-8f39-fa10b47a3cef" />
 
 ```
